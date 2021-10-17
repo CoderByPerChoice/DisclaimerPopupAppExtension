@@ -1,5 +1,3 @@
-# My-solutions
-=======
 # Disclaimer popup using SPFx application extension
 
 ## Summary
