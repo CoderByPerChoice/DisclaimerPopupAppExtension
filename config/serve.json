@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://myuse.sharepoint.com/sites/BOXMK",
+      "customActions": {
+        "3e671264-106c-425c-a96a-78618fdc6873": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "disclaimerPopup": {
+      "pageUrl": "https://myuse.sharepoint.com/sites/BOXMK",
+      "customActions": {
+        "3e671264-106c-425c-a96a-78618fdc6873": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
