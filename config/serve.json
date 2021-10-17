@@ -4,7 +4,7 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://myuse.sharepoint.com/sites/BOXMK",
+      "pageUrl": "https://o365devsubs.sharepoint.com/sites/DemoSite1",
       "customActions": {
         "3e671264-106c-425c-a96a-78618fdc6873": {
           "location": "ClientSideExtension.ApplicationCustomizer",
@@ -15,7 +15,7 @@
       }
     },
     "disclaimerPopup": {
-      "pageUrl": "https://myuse.sharepoint.com/sites/BOXMK",
+      "pageUrl": "https://o365devsubs.sharepoint.com/sites/DemoSite1",
       "customActions": {
         "3e671264-106c-425c-a96a-78618fdc6873": {
           "location": "ClientSideExtension.ApplicationCustomizer",

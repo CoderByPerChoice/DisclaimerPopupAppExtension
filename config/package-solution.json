@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "capri-solutions-client-side-solution",
+    "name": "My-solutions-client-side-solution",
     "id": "f368c0a5-4348-4409-b10b-c2efcd4a8099",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
@@ -29,6 +29,6 @@
     ]
   },
   "paths": {
-    "zippedPackage": "solution/capri-solutions.sppkg"
+    "zippedPackage": "solution/My-solutions.sppkg"
   }
 }
