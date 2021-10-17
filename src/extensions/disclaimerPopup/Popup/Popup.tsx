@@ -17,7 +17,6 @@ const dialogContentProps = {
 };
 
 export default function DialogBlockingExample() {
-    //const [hideDialog, { toggle: toggleHideDialog }] = useBoolean(true);
     const [hideDialog, setDialogHidden] = React.useState(true);
     const [isDraggable] = useBoolean(false);
     const modalProps = React.useMemo(
@@ -34,23 +33,20 @@ export default function DialogBlockingExample() {
     }
 
     function btnClicked() {
-        //alert('Button clicked!');
         localStorage.setItem("AckDateTimeStamp", new Date().toLocaleDateString());
         setDialogHidden(!hideDialog);
     }
 
     React.useEffect(() => {
-        //alert('Something happened.');
         // Store
         if (localStorage.getItem("AckDateTimeStamp") !== "") {
             var ackDate = new Date(localStorage.getItem("AckDateTimeStamp"));
-            const a = new Date("2021-04-28"),
-                b = new Date();
+            const currentDate = new Date();
 
             const _MS_PER_DAY = 1000 * 60 * 60 * 24;
             // Discard the time and time-zone information.
             const utc1 = Date.UTC(ackDate.getFullYear(), ackDate.getMonth(), ackDate.getDate());
-            const utc2 = Date.UTC(b.getFullYear(), b.getMonth(), b.getDate());
+            const utc2 = Date.UTC(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate());
 
             var diff = Math.floor((utc2 - utc1) / _MS_PER_DAY);
             if (diff > 5) {
