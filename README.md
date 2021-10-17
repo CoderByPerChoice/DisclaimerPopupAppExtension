@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# My-solutions
-=======
 # Disclaimer popup using SPFx application extension
->>>>>>> 38ba805d350b177310125426599daa07aac5e606
 
 ## Summary
 
