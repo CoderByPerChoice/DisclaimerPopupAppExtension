@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 # My-solutions
+=======
+# Disclaimer popup using SPFx application extension
+>>>>>>> 38ba805d350b177310125426599daa07aac5e606
 
 ## Summary
 
-Short summary on functionality and used technologies.
+Dialog popup is dislayed using office fabric react controls.
 
-[picture of the solution in action, if possible]
+![image](https://user-images.githubusercontent.com/20637763/137634030-65e9b53a-593d-4442-8077-01efe98c45b1.png)
+
 
 ## Used SharePoint Framework Version
 
